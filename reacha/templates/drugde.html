@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Faithful &mdash; Colorlib Website Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+       <link href='https://fonts.googleapis.com/css?family=BioRhyme' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Work+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="/static/fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/magnific-popup.css">
+    <link rel="stylesheet" href="/static/css/jquery-ui.css">
+    <link rel="stylesheet" href="/static/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/static/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/static/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="/static/css/animate.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
+    
+    
+    
+    <link rel="stylesheet" href="/static/fonts/flaticon/font/flaticon.css">
+  
+    <link rel="stylesheet" href="/static/css/aos.css">
+
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/gallery.css">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css">
+    
+  </head>
+  <body>
+  <style>
+    label {
+  color: #5d5dff;
+}
+
+#gallery {
+  color: white;
+}
+
+#gallery-box {
+  display: block;
+  position: relative;
+  max-height: 400px;
+  width: 100%;
+  overflow: scroll;
+  width: 100%;
+}
+
+#gallery-box::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+#gallery-box::-webkit-scrollbar-track {
+  background: #e5e5e5;
+}
+
+#gallery-box::-webkit-scrollbar-thumb {
+  background: #5d5dff;
+}
+
+#gallery-box::-webkit-scrollbar-thumb:hover {
+  background: #7d7dff;
+}
+
+#gallery-count {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  height: 50px;
+  text-decoration: none;
+}
+
+#gallery-img {
+  display: flex;
+  min-height: 400px;
+  min-width: 600px;
+  height: auto;
+  background: #e5e5e5;
+  text-align: center;
+  background-image: url("https://loremflickr.com/800/600/dog?lock=10");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.3s ease-in-out;
+}
+
+.gallery-thumbnails {
+  display: flex;
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 2px solid white;
+}
+
+.gallery-thumbnails img {
+  float: left;
+  width: 10%;
+  cursor: pointer;
+  padding: 0;
+  filter: grayscale(1);
+  min-height: 25px;
+}
+
+.gallery-thumbnails img:hover {
+  filter: none !important;
+}
+
+      #grid {
+    position: relative;
+    }
+      .full {
+    width: 100%;
+    float: left;
+    }
+      #grid:before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #333030;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    top: 0;
+    z-index: 1;
+    }
+  #grid .button {
+    margin: 40px auto 0 auto;
+    }
+      .button.green {
+    background: #72dbb0;
+    border-color: #72dbb0;
+    }
+      a:link {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+    }
+      @media only screen and (min-width: 768px) {
+        .button {
+          font-size: 0.9em;
+        }
+      }
+      .button {
+        display: table;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        border-radius: 200px;
+        line-height: normal;
+        font-weight: 700;
+        border: 3px solid #50d7e6;
+        transition: all, 0.3s;
+      }
+      .button:hover{
+        background-color: white;
+      }
+      .button:hover{
+        color: #72dbb0;
+      }
+  </style>
+  
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div> <!-- .site-mobile-menu -->
+    
+    
+     <div class="site-navbar-wrap js-site-navbar bg-white">
+
+      <div class="container">
+        <div class="site-navbar bg-light">
+          <div class="py-1">
+            <div class="row align-items-center">
+              <div class="col-2">
+                <img class="mb-0 site-logo" src="/static/images/REACHA%20HIGH%20RESOLUTION%20LOGO1.png" style="width:100px; height:100px;">
+              </div>
+              <div class="col-10">
+                <nav class="site-navigation text-right" role="navigation">
+                  <div class="container">
+                    <!-- d-lg-none -->
+                    <div class="d-inline-block  ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu h3"></span></a></div>
+                     <!-- d-lg-block -->
+                    <ul class="site-menu js-clone-nav d-none">
+                      <li class="has-children">
+                        <a href="/about">About</a>
+                        <ul class="dropdown arrow-top">
+                          <li><a href="/History">History</a> </li>
+                          <li><a href="/vision">Vision</a></li>
+                          <li><a href="/Mission">Mission</a></li>
+                          <li><a href="/methodology">Methodology</a></li>
+                          <li><a href="/Team">Team</a></li>
+                          <li><a href="beliefs.html">Geographies</a></li>
+                          <li><a href="beliefs.html">Annual Reports</a></li>
+                        </ul>
+                      </li>
+                        <li class="has-children">
+                        <a href="About.html">Projects</a>
+                        <ul class="dropdown arrow-top">
+                          <li class="has-children">
+                          <a href="beliefs.html">Education</a>
+                          <ul class="dropdown arrow-top">
+                              <li><a href="/project/education/villagesports">Village & Sports</a></li>
+                              <li><a href="/project/education/tatapowerenergyclub">Tata Energy Project Club</a></li>
+                              <li><a href="/project/education/sameerclub">Sameer Club</a></li>
+                              <li><a href="/project/education/maitreyaclub">Maitreya Club</a></li>
+                              <li><a href="/project/education/tatatelservices">Tata Teleservices</a></li>
+
+                          </ul>
+                        </ul>
+                        <ul class="dropdown arrow-top">
+                          <li class="has-children">
+                          <a href="beliefs.html">Livelihood</a>
+                          <ul class="dropdown arrow-top">
+                              <li><a href="/project/livelihood/legenpact">Livelihood Enhancement</a></li>
+                            <li><a href="/project/livelihood/musicandculture">Music & Culture</a></li>
+                              <li><a href="/project/livelihood/drugde">Drug De-Addiction</a></li>
+                             <li><a href="/project/livelihood/urirehabilation">Uri Rehabilation</a></li>
+                              <li><a href="/project/livelihood/fashion">Fashion,Retail & Hospitality</a></li>
+
+                          </ul>
+                        </ul>
+                      </li>
+                        <li class="has-children">
+                        <a href="About.html">Stakeholders</a>
+                        <ul class="dropdown arrow-top">
+                          <li><a href="beliefs.html">Partners</a></li>
+                          <li><a href="beliefs.html">Supporters</a></li>
+                          <li><a href="beliefs.html">Affiliations</a></li>
+                        </ul>
+                      </li>
+                        <li class="has-children">
+                        <a href="About.html">Adovacy</a>
+                        <ul class="dropdown arrow-top">
+                          <li><a href="beliefs.html">Knowledge Bank</a></li>
+                          <li><a href="beliefs.html">Publications</a></li>
+                          <li><a href="beliefs.html">Toolkits</a></li>
+                        </ul>
+                      </li>
+                        <li class="has-children">
+                        <a href="About.html">Media&Gallery</a>
+                        <ul class="dropdown arrow-top">
+                          <li><a href="beliefs.html">Press Releases</a></li>
+                          <li><a href="beliefs.html">Awards</a></li>
+                          <li><a href="beliefs.html">Galley</a></li>
+                        </ul>
+                      </li>
+                        <li class="has-children">
+                        <a href="About.html">Contact Us</a>
+                        <ul class="dropdown arrow-top">
+                          <li><a href="/Volunteer">Volunteer</a></li>
+                          <li><a href="beliefs.html">Address</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    
+    <div class="slide-one-item home-slider owl-carousel">
+
+      <div class="site-blocks-cover overlay img-fluid" style=" background-image: url(/static/images/rsz_drug1.jpg);background-position: center;" data-aos="fade" data-stellar-background-ratio="0.5">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-12 text-center" data-aos="fade">
+              <h1 class="mb-2" style="color: white;font-family: Nunito;font-weight: bold">DRUG DE-ADDICTION</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <section style="background: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.9)),url('/static/images/drug4.jpg');background-repeat: no-repeat;background-size: cover;background-position: top;background-attachment: fixed;">
+          <div class="container">
+              <div class="row justify-content-center" data-aos="fade-right" style="margin-top:3%;" >
+                  <h1 style="font-family: Nunito">ABOUT<span style="color: mediumseagreen;margin-top:3%;"> THE PROJECT</span></h1>
+              </div>
+              <div class="row justify-content-center" style="border: 2px solid black;padding: 10px">
+                <p data-aos="fade-right" style="color:rgba(108, 122, 137, 1);font-family: Nunito;font-size: 21.5px;" >Drug De-addiction Center (DDC), Baramulla, located within Army campus, is an innovative initiative run by REACHA with support from ONGC, to curb the menace of drug abuse with active counseling for the youth, coupled by de-addiction medication and by spreading awareness through seminars at regular intervals. DDC run by the army is the most successful as compared to other governmental and non-governmental organisations in the area.<br>  
+
+Project Goal: To dissuade the youth of Kashmir from drugs and include them in mainstream and to give them a drug free and healthy life so they can play a constructive role in the society.<br> 
+
+Target Beneficiaries: About 40% of the youth of Kashmir (both boys and girls) in the age group of 16-25 form the vulnerable communities. We cover 1200 such youth each year.</p> 
+
+<div class="row" style="padding-bottom: 2%;">
+<div class="col-md-6 col-lg-6">
+<img src="/static/images/drug2.JPG" data-aos="fade-left" class="img-fluid">
+</div>
+<div class="col-lg-6 col-md-6">
+  <img src="/static/images/drug3.JPG" data-aos="fade-left" class="img-fluid">
+</div>
+</div>
+
+<p style="color:rgba(108, 122, 137, 1);font-family: Nunito;font-size: 21.5px;" data-aos="fade-left">Area Covered: Baramulla, J&K<br> 
+
+Kashmir has a severe problem of drug menace which is compounded by militancy. The success achieved by the effort of the Indian Army has shown the possibilities of curbing this menace. Lack of infrastructure and norms of the existing society are hindrances which need to be addressed at all levels. DDC at Baramulla is a noble initiative which has assisted in bridging the gap between the populace and the Army and assist in bringing normalcy to the strife-torn region. <br>
+
+Positively impacted youth are encouraged to take up livelihood enhancement trainings by Indian Army at Chinar 9 Jawan Club, Baramulla – which is also supported by ONGC and implemented by REACHA.<br> 
+
+The war against drug abuse to ensure a healthy and prosperous Kashmir requires to be continued relentlessly till such time the menace is eradicated from the society.  <br>
+
+DDC has been devised to ensure rehabilitation of the addicts. Once taken care of, REACHA encourages their skilling and placements in gainful jobs through Chinar 9 Jawan Club. This seeks to reduce the chances of youth slipping back into addiction or be brainwashed into militancy. The real world connect at DDC brings in aspects of positive social change that the youth and their parents are benefitted from.   <br>
+
+
+
+</div>
+</div>
+
+
+</section> 
+<h1 style="font-family: Nunito;color: darkslateblue;margin-top: 3%;">Gallery</h1>
+
+  <div class="flex-container31 my-4" style="margin-top: 3%;">
+<div class="row">
+
+  <!-- Grid column -->
+  <div class="col-lg-6 col-md-6 mb-4 text-center">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-1by1 z-depth-1-half img-fluid">
+              <iframe  class="embed-responsive-item text-center" style="margin-left:10%;width:100%;" src="/static/images/counselling.png"
+              ></iframe>
+            </div>
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4" style="font-family: Nuntino;font-weight: bold;">Spread the word!</span>
+            <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+            <!--Twitter-->
+            <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+            <!--Google +-->
+            <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+            <!--Linkedin-->
+            <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    <!--Modal: Name-->
+     <div id="modal-style" style="background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/static/images/counselling.png);height: 250px;width:250px;background-size: cover;background-repeat: no-repeat; justify-content: center;"><p style="color: white;text-align: center;padding-top: 100px" data-toggle="modal" data-target="#modal1">Counseling Session</p></div>
+
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  
+  <!-- Grid column -->
+    <div class="col-lg-6 col-md-6 mb-4">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-1by1 z-depth-1-half img-fluid">
+              <iframe  class="embed-responsive-item text-center" style="width:100%;justify-content: center;margin-left: 13%;" src="/static/images/ddc.png"
+              ></iframe>
+            </div>
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4" style="font-family: Nuntino;font-weight: bold;">Spread the word!</span>
+            <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+            <!--Twitter-->
+            <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+            <!--Google +-->
+            <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+            <!--Linkedin-->
+            <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    <!--Modal: Name-->
+     <div style="background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/static/images/ddc.png);height: 250px;width:250px;background-size: cover;background-repeat: no-repeat;"><p style="color: white;text-align: center;padding-top: 100px" data-toggle="modal" data-target="#modal3">DDC Seminar gallery</p></div>
+
+  </div>
+
+  <!-- Grid column -->
+   
+    
+  <!-- Grid column -->
+
+</div>
+</div>
+</div>
+
+    <footer class="site-footer" style="background-image: url('images/hero_1.jpg');">
+      <div class="container">
+        
+
+        <div class="row">
+          <div class="col-md-4">
+            <h3 class="footer-heading mb-4 text-white">About</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quos rem ullam, placeat amet.</p>
+            <p><a href="#" class="btn btn-primary pill text-white px-4">Read More</a></p>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6">
+                <h3 class="footer-heading mb-4 text-white">Quick Menu</h3>
+                  <ul class="list-unstyled">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Approach</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Careers</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-6">
+                <h3 class="footer-heading mb-4 text-white">Ministries</h3>
+                  <ul class="list-unstyled">
+                    <li><a href="#">Children</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Bible Study</a></li>
+                    <li><a href="#">Church</a></li>
+                    <li><a href="#">Missionaries</a></li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-md-2">
+            <div class="col-md-12"><h3 class="footer-heading mb-4 text-white">Social Icons</h3></div>
+              <div class="col-md-12">
+                <p>
+                  <a href="#" class="pb-2 pr-2 pl-0"><span class="icon-facebook"></span></a>
+                  <a href="#" class="p-2"><span class="icon-twitter"></span></a>
+                  <a href="#" class="p-2"><span class="icon-instagram"></span></a>
+                  <a href="#" class="p-2"><span class="icon-vimeo"></span></a>
+
+                </p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="/static/js/jquery-3.3.1.min.js"></script>
+  <script src="/static/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="/static/js/jquery-ui.js"></script>
+  <script src="/static/js/popper.min.js"></script>
+  <script src="/static/js/bootstrap.min.js"></script>
+  <script src="/static/js/owl.carousel.min.js"></script>
+  <script src="/static/js/jquery.stellar.min.js"></script>
+  <script src="/static/js/jquery.countdown.min.js"></script>
+  <script src="/static/js/jquery.magnific-popup.min.js"></script>
+  <script src="/static/js/bootstrap-datepicker.min.js"></script>
+  <script src="/static/js/aos.js"></script>
+
+  
+  <script src="/static/js/mediaelement-and-player.min.js"></script>
+
+  <script src="/static/js/main.js"></script>
+ 
+
+  </script>
+   <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+   <script type="text/javascript" src="/static/js/flickity.pkgd.min.js"></script>
+  </body>
+</html>
